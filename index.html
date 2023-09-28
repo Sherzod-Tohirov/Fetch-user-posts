@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="wrapper users">
+		<div class="users">
+			<ul class="users__list js-user-list">
+				<template class="js-user-temp">
+					<li class="users__item">
+						<div class="users__name-wrapper">
+							<strong class="users__name js-name">
+								
+							</strong>
+							<span class="users__id js-id">
+								
+							</span>
+						</div>
+						<div class="users__details-wrapper">
+							<p class="users__desc">
+								<strong class="users__desc-title">
+									Username:
+								</strong>
+								<span class="users__desc-text js-username">
+									
+								</span>
+							</p>
+							<p class="users__desc">
+								<strong class="users__desc-title">
+									Email:
+								</strong>
+								<a class="users__desc-text users-link js-email" href="">
+									
+								</a>
+							</p>
+						</div>
+						<div class="users__address-info-wrapper">
+							<p class="users__desc">
+								<strong class="users__desc-title">
+									Address:
+								</strong>
+								<span class="users__desc-text js-address">
+									
+								</span>
+							</p>
+							<p class="users__desc">
+								<strong class="users__desc-title">
+									Zip-code:
+								</strong>
+								<span class="users__desc-text js-zipcode">
+									
+								</span>
+							</p>
+							<p class="users__desc">
+								<strong class="users__desc-title">
+									Phone number:
+								</strong>
+								<a class="users__desc-text users-link js-tel" href="">
+									
+								</a>
+							</p>
+							<div class="users__location-wrapper">
+								<a class="users__website users-link-btn js-website" href="" target="blank">Website</a>
+								<a class="users__location users-link-btn js-location" href="http://www.google.com/maps/place/lat,lang" target="blank">Location</a>
+							</div>
+						</div>
+						<div class="users__company-info-wrapper">
+							<p class="users__desc">
+								<strong class="users__desc-title">
+									Company name:
+								</strong>
+								<span class="users__desc-text js-company">
+									
+								</span>
+							</p>
+							<p class="users__desc">
+								<strong class="users__desc-title">
+									Job description:
+								</strong>
+								<span class="users__desc-text js-job-desc">
+									
+								</span>
+							</p>
+							<p class="users__desc">
+								<strong class="users__desc-title">
+									Details:
+								</strong>
+								<span class="users__desc-text js-details">
+									
+								</span>
+							</p>
+						</div>
+						<button class="users__btn js-post-btn" type="button">Posts</button>
+					</li>
+				</template>
+			</ul>
+		</div>
+		<div class="posts">
+			<ul class="posts__list js-post-list">
+				<template class="js-post-temp">
+					<li class="posts__item">
+						<div class="posts__name-wrapper">
+							<strong class="posts__name js-post">
+								Post id
+							</strong>
+							<span class="posts__id js-post-id">
+								
+							</span>
+						</div>
+							<div class="posts__details-wrapper">
+								<p class="posts__desc post-title">
+									<strong class="posts__desc-title ">
+										Title:
+									</strong>
+									<span class="posts__desc-text js-post-title">
+										
+									</span>
+								</p>
+								<p class="posts__desc post-body-desc">
+									<strong class="posts__desc-title">
+										Description:
+									</strong>
+									<span class="posts__desc-text post-body js-post-body">
+										
+									</span>
+								</p>
+							</div>
+							<button class="posts__btn js-comment-btn">Comments</button>
+						</div>
+					</li>
+				</template>
+			</ul>
+		</div>
+		<div class="comments">
+			<ul class="comments__list js-comment-list">
+				<template class="js-comment-temp">
+					<li class="comments__item">
+						<div class="posts__name-wrapper">
+							<strong class="posts__name js-comment">
+								Comment id
+							</strong>
+							<span class="posts__id js-comment-id">
+								
+							</span>
+						</div>
+							<div class="comments__details-wrapper">
+								<p class="comments__desc post-title">
+									<strong class="comments__desc-title ">
+										Email:
+									</strong>
+									<a class="comments__desc-text comments-link js-comment-email" href="">
+										
+									</a>
+								</p>
+								<p class="comments__desc post-body-desc">
+									<strong class="comments__desc-title">
+										Name:
+									</strong>
+									<span class="comments__desc-text post-body js-comment-title">
+										
+									</span>
+								</p>
+								<p class="comments__desc post-body-desc">
+									<strong class="comments__desc-title">
+										Body:
+									</strong>
+									<span class="comments__desc-text post-body js-comment-body">
+										
+									</span>
+								</p>
+							</div>
+						</div>
+					</li>
+				</template>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<script src="./js/app.js"></script>
+</body>
+</html>
