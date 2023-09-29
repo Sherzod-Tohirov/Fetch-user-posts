@@ -120,6 +120,18 @@ img {
     padding-bottom: 80px;
   }
 
+  .title-wrapper {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .title {
+    text-align: center;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: var(--secondary-text-color);
+  }
   .users__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -129,6 +141,7 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
     gap: 20px;
+    max-height: 100vh;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;

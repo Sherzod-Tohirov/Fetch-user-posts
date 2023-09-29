@@ -3,15 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Fetch Users/Posts/Comments</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="./css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="./css/main.css">
 </head>
 <body>
-
 <div class="container">
 	<div class="wrapper users">
-		<div class="users">
+		<div class="users">	
 			<ul class="users__list js-user-list">
 				<template class="js-user-temp">
 					<li class="users__item">
@@ -105,7 +105,7 @@
 		<div class="posts">
 			<ul class="posts__list js-post-list">
 				<template class="js-post-temp">
-					<li class="posts__item">
+					<li class="posts__item" data-aos="fade-up-left">
 						<div class="posts__name-wrapper">
 							<strong class="posts__name js-post">
 								Post id
@@ -141,7 +141,7 @@
 		<div class="comments">
 			<ul class="comments__list js-comment-list">
 				<template class="js-comment-temp">
-					<li class="comments__item">
+					<li class="comments__item" data-aos="fade-up-left">
 						<div class="posts__name-wrapper">
 							<strong class="posts__name js-comment">
 								Comment id
@@ -184,6 +184,11 @@
 	</div>
 </div>
 
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+	AOS.init();
+</script>
 
 <script src="./js/app.js"></script>
 </body>
